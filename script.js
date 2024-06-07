@@ -65,8 +65,8 @@ view();
 //! Controller
 //* Create
 function create(text) {
-  model.push({
-    id: Math.max(...modelTodos.map((e) => e.id)),
+  modelTodos.push({
+    id: Math.max(...modelTodos.map((e) => e.id)) + 1,
     todo: text,
     isdone: false,
   });
