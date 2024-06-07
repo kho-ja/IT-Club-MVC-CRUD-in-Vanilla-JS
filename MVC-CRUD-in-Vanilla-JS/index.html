@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MVC CRUD in Vanilla JS</title>
+  </head>
+  <body>
+    <h1>MVC CRUD in Vanilla JS (Na bo‘ldi nigoron?!)</h1>
+    <input type="text" id="todText" onchange="create(this.value)" />
+    <ul id="todos"></ul>
+    <input
+      type="search"
+      name="search"
+      id="search"
+      placeholder="Qidirish"
+      oninput="filter(this.value)"
+    />
+    <h2>Vanilla JS</h2>
+    <p>Oddiy sof JavaScript</p>
+    <h2>CRUD</h2>
+    <ul>
+      <li>Create</li>
+      <li>Read</li>
+      <li>Update</li>
+      <li>Delete</li>
+    </ul>
+    <h2>MVC</h2>
+    <ol>
+      <li>Model</li>
+      <li>View</li>
+      <li>Controller</li>
+    </ol>
+    <h2>Na bo‘ldi nigoron?!</h2>
+    <p>shunchaki qiztirish uchun.</p>
+    <script src="script.js"></script>
+  </body>
+</html>
